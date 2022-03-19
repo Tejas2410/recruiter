@@ -1,10 +1,3 @@
-<?php
-
-session_start();
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,8 +43,8 @@ session_start();
                             <th>Company Name</th>
                             <th>Company Website</th>
                             <th>Company Phone Number</th>
-                            <th>Company Addressr</th>
-                            <th>Company City</th>
+                            <th>Company Address</th>
+                            <th>Company city</th>
                             <th>Company State</th>
                             <th>Company Country</th>
                             <th>Industry</th>
@@ -76,21 +69,22 @@ session_start();
         emptyNewRow = emptyNewRow + "    <td class='tdMobile'>";
         emptyNewRow = emptyNewRow + "        <input type='text' class='form-control txtMobile' placeholder='Enter Mobile'/>";
         emptyNewRow = emptyNewRow + "    </td>";
-        emptyNewRow = emptyNewRow + "    <td class='tdName'>";
-        emptyNewRow = emptyNewRow + "        <input type='text' class='form-control txtName' placeholder='Company Address'/>";
+        emptyNewRow = emptyNewRow + "    <td class='tdAddress'>";
+        emptyNewRow = emptyNewRow + "        <input type='text' class='form-control txtAddress' placeholder='Address'/>";
         emptyNewRow = emptyNewRow + "    </td>";
-        emptyNewRow = emptyNewRow + "    <td class='tdName'>";
-        emptyNewRow = emptyNewRow + "        <input type='text' class='form-control txtName' placeholder='Company City'/>";
+        emptyNewRow = emptyNewRow + "    <td class='tdcty'>";
+        emptyNewRow = emptyNewRow + "        <input type='text' class='form-control txtcty' placeholder='City'/>";
         emptyNewRow = emptyNewRow + "    </td>";
-        emptyNewRow = emptyNewRow + "    <td class='tdName'>";
-        emptyNewRow = emptyNewRow + "        <input type='text' class='form-control txtName' placeholder='Company State'/>";
+        emptyNewRow = emptyNewRow + "    <td class='tdState'>";
+        emptyNewRow = emptyNewRow + "        <input type='text' class='form-control txtState' placeholder='State'/>";
         emptyNewRow = emptyNewRow + "    </td>";
-        emptyNewRow = emptyNewRow + "    <td class='tdName'>";
-        emptyNewRow = emptyNewRow + "        <input type='text' class='form-control txtName' placeholder='Company Country'/>";
+        emptyNewRow = emptyNewRow + "    <td class='tdCountry'>";
+        emptyNewRow = emptyNewRow + "        <input type='text' class='form-control txtCountry' placeholder='Company Country'/>";
         emptyNewRow = emptyNewRow + "    </td>";
-        emptyNewRow = emptyNewRow + "    <td class='tdName'>";
-        emptyNewRow = emptyNewRow + "        <input type='' class='form-control txtName' placeholder='Industry'/>";
+        emptyNewRow = emptyNewRow + "    <td class='tdIndustry'>";
+        emptyNewRow = emptyNewRow + "        <input type='' class='form-control txtIndustry' placeholder='Industry'/>";
         emptyNewRow = emptyNewRow + "    </td>";
+        
         emptyNewRow = emptyNewRow + "    <td class='tdAction'>";
         emptyNewRow = emptyNewRow + "        <button class='btn btn-sm btn-success btn-save'> Save</button>";
         emptyNewRow = emptyNewRow + "        <button class='btn btn-sm btn-success btn-cancel'> Cancel</button>";
@@ -120,6 +114,18 @@ session_start();
                 $(this).parent().parent().find(".tdCity").html(""+city+"");
                 const mobile =  $(this).parent().parent().find(".txtMobile").val();
                 $(this).parent().parent().find(".tdMobile").html(""+mobile+"");
+                const Address =  $(this).parent().parent().find(".txtAddress").val();
+                $(this).parent().parent().find(".tdAddress").html(""+Address+"");
+                const cty =  $(this).parent().parent().find(".txtcty").val();
+                $(this).parent().parent().find(".tdcty").html(""+cty+"");
+                const State =  $(this).parent().parent().find(".txtState").val();
+                $(this).parent().parent().find(".tdState").html(""+State+"");
+                const Country =  $(this).parent().parent().find(".txtCountry").val();
+                $(this).parent().parent().find(".tdCountry").html(""+Country+"");
+                const Industry =  $(this).parent().parent().find(".txtIndustry").val();
+                $(this).parent().parent().find(".tdIndustry").html(""+Industry+"");
+
+                
                 $(this).parent().parent().find(".tdAction").html(rowButtons);
             });
              
@@ -137,7 +143,6 @@ session_start();
             });
             $('#tblData').on('click', '.btn-edit', function () { 
                 const name =$(this).parent().parent().find(".tdName").html();
-
                 $(this).parent().parent().find(".tdName").html("<input type='text' value='"+name+"' class='form-control txtName' placeholder='Enter Name'/>"); 
 
 
@@ -149,6 +154,20 @@ session_start();
                 const mobile =$(this).parent().parent().find(".tdMobile").html();
 
                 $(this).parent().parent().find(".tdMobile").html("<input type='text' value='"+mobile+"' class='form-control txtMobile' placeholder='Enter Mobile'/>"); 
+                const Address =$(this).parent().parent().find(".tdAddress").html();
+                $(this).parent().parent().find(".tdAddress").html("<input type='text' value='"+Address+"' class='form-control txtAddress' placeholder='Enter Address'/>"); 
+               
+                const cty =$(this).parent().parent().find(".tdcty").html();
+                $(this).parent().parent().find(".tdcty").html("<input type='text' value='"+cty+"' class='form-control txtcty' placeholder='Enter city'/>");
+                
+                const State =$(this).parent().parent().find(".tdState").html();
+                $(this).parent().parent().find(".tdState").html("<input type='text' value='"+State+"' class='form-control txtState' placeholder='Enter State'/>"); 
+
+                const Country =$(this).parent().parent().find(".tdCountry").html();
+                $(this).parent().parent().find(".tdCountry").html("<input type='text' value='"+Country+"' class='form-control txtCountry' placeholder='Enter Country'/>"); 
+             
+                const Industry =$(this).parent().parent().find(".tdIndustry").html();
+                $(this).parent().parent().find(".tdIndustry").html("<input type='text' value='"+Industry+"' class='form-control txtIndustry' placeholder='Enter Industry'/>"); 
                 $(this).parent().parent().find(".tdAction").html(rowUpdateButtons);
                 
                 
