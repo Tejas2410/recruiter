@@ -254,7 +254,7 @@ html {
   color: #fff;
 }
 .banner-paragraph {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 400;
   text-transform: uppercase;
   color: #fff;
@@ -327,7 +327,7 @@ html {
 }
 
 .section-heading {
-  font-size: 10rem;
+  font-size: 5rem;
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   color: #ddd;
@@ -940,13 +940,13 @@ html {
   <nav class="navbar">
       <div class="navbar-logo">
         <a href="#">
-          <span>R</span>ecr<span>ui</span>ter<span>.</span>com
+          <span>So</span>ci<span>al</span>me<span>di</span>a<span>Ic</span>ons<span>.</span>com
         </a>
       </div>
       <div class="nav-list">
         <a href="#" class="nav-link">Home</a>
-        <a href="#" class="nav-link">Companies</a>
-        <a href="#" class="nav-link">Contact</a>
+        <a href="#about-us" class="nav-link">Icons</a>
+        <a href="#contact" class="nav-link">Contact</a>
         <a href="logout.php" class="nav-link">Logout</a>
       </div>
     </nav>
@@ -965,23 +965,57 @@ html {
       <section class="section-1" id="home">
         <div class="banner">
           <h1 class="banner-heading">
-            <span class="heading-1">Talent Acquisition</span>
-            <span class="heading-2">Recruiters</span>
-            <span class="heading-3">Recruiter Directory</span>
-            <span class="heading-4">Career</span>
+            <span class="heading-1">Social Media icons</span>
+            <span class="heading-2">Facebook Icon</span>
+            <span class="heading-3">Popular Icons</span>
+            <span class="heading-4">Instagram Icon</span>
           </h1>
-          <p class="banner-paragraph">Looking for help with hiring? Recruiter.com is here to help.</p>
-          <button class="banner-btn">Discover Now</button>
+          <p class="banner-paragraph">Here you can find the logos of social networks, such as Instagram icon, Facebook icon, Twitter icon, and more</p>
+          <button class="banner-btn" ><a href="#about-us" class="banner-btn" >Discover Now</a></button>
         </div>
       </section>
       <!-- End of Section 1 -->
 
-      <!-- Section 2 -->
-      <section class="section-2" id="about-us">
-          <h1 class="section-heading">Companies</h1>
-          <div class="section-heading-line"></div>
-          <div class="video-wrapper">
-            <video src="images/about-us-video.mp4" class="video"></video>
+     <!-- Section 2 -->
+     <section class="section-2" id="about-us">
+          <h6 class="section-heading">Social Media Icons</h6>
+          <div>
+          <img src = "./img/Facebook.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >  ->   Facebook Icon</h2>
+          <img src = "./img/Instagram.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   Instagram Icon</h2>
+          <img src = "./img/Snapchat.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   Snapchat Icon</h2>
+        </div>
+        <div>
+          <img src = "./img/tiktok.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   tiktok Icon</h2>
+          <img src = "./img/Twitter.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   Twitter Icon</h2>
+          <img src = "./img/YouTube.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   YouTube Icon</h2>
+        </div>
+        <div>
+          <img src = "./img/WhatsApp.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   WhatsApp Icon</h2>
+          <img src = "./img/LinkedIn.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   LinkedIn Icon</h2>
+          <img src = "./img/Reddit.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   Reddit Icon</h2>
+        </div>
+        <div>
+          <img src = "./img/Pinterest.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   Pinterest Icon</h2>
+          <img src = "./img/Github.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   Github Icon</h2>
+          <img src = "./img/Email.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   Email Icon</h2>
+</div>
+<div>
+          <img src = "./img/Behance.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   Behance Icon</h2>
+          <img src = "./img/Skype.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   Skype Icon</h2>
+          <img src = "./img/Phone.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   Phone Icon</h2>
+        </div>  
+        <div> 
+          <img src = "./img/tumblr.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   tumblr Icon</h2>
+<img src = "./img/Twitch.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   Twitch Icon</h2>
+          <img src = "./img/Dribble.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   Dribble Icon</h2>
+        </div> 
+        <div>
+          <img src = "./img/Spotify.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   Spotify Icon</h2>
+          <img src = "./img/Messenger.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   Messenger Icon</h2>
+          <img src = "./img/tiktok.png" width="128" height="128" style="padding: 10%;"><h2 style="color:crimson;" >->   tiktok Icon</h2>
+        </div>
+          <!-- <div class="video-wrapper">
+            <video src="" class="video"></video>
             <div class="controls">
               <div class="video-bar-wrapper">
                 <div class="video-bar"></div>
@@ -989,15 +1023,21 @@ html {
               <div class="buttons">
                 <button id="play-pause">
                   <i class="far fa-play-circle"></i>
-                </button>
-              </div>
+                </button> -->
+              <!-- </div>
             </div>
-          </div>
-          <p class="section-2-paragraph">
-            <i class="fas fa-quote-left"> </i>
-                  <a href="/companies.html" target="_blank" class="ab" >Click Here</a>
-                  
-            <i class="fas fa-quote-right"></i>
+          </div> -->
+          
+
+<!-- <i class="fa fa-file"></i>
+<i class="fa fa-bars"></i>
+          <p class="section-2-paragraph"> -->
+            
+            <!-- <i class="fas fa-quote-left"></i>
+            <i class="fa fa-cloud" style="font-size: 100px;"></i> <i class="fa fa-heart" style="font-size: 100px;"></i>
+          
+          <i class="fa fa-car" style="font-size: 100px;"></i>
+            <i class="fas fa-quote-right"></i> -->
           </p>      
         </section>
       <!-- End of Section 2 -->
@@ -1024,7 +1064,7 @@ html {
           <div class="email">
             <i class="far fa-envelope"></i>
             <h3>Email</h3>
-            <p>recruiter@gmail.com</p>
+            <p>SocialmediaIcons@gmail.com</p>
             <p>support@gmail.com</p>
           </div>
         </div>
@@ -1043,10 +1083,10 @@ html {
         <footer class="footer">
           <div class="footer-nav">
             <a href="#home">Home</a>
-            <a href="#pricing">List of Companies</a>
+            <a href="#pricing">List of Icons</a>
             <a href="#contact">Contact</a>
           </div>
-          <p class="copyright">Copyright &copy; CodeAndCreate All Rights Reserved</p>
+          <p class="copyright">Copyright &copy; SocialmediaIcons All Rights Reserved</p>
         </footer>
         <!-- End of Footer -->
     </div>
